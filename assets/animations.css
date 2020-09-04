@@ -1,0 +1,35 @@
+/* Animation */
+@-webkit-keyframes fadeInAnimation {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes fadeInAnimation {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-o-keyframes fadeInAnimation {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeInAnimation {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+@-webkit-keyframes slideDownAnimation {
+    0%   { margin-top: -20px;}
+    100% { margin-top: 0;}
+}
+@-moz-keyframes slideDownAnimation {
+    0%   { margin-top: -20px;}
+    100% { margin-top: 0;}
+}
+@-o-keyframes slideDownAnimation {
+    0%   { margin-top: -20px;}
+    100% { margin-top: 0;}
+}
+@keyframes slideDownAnimation {
+    0%   { margin-top: -20px;}
+    100% { margin-top: 0;}
+}
+  

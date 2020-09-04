@@ -1,0 +1,11 @@
+{
+  "name": "wterm",
+  "version": "0.0.1",
+  "main": "script.js",
+  "scripts": {
+    "start": "browser-sync start --server --files \"*.css, *.html, *.js\""
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.5 <2.23.2"
+  }
+}
