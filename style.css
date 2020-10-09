@@ -18,7 +18,7 @@ body, h1, h2, h3 {
 
 .main {
   width: 1000px;
-  padding-top: 100px;
+  padding-top: 75px;
 	margin: 0 auto;
 }
 
@@ -116,7 +116,6 @@ span {
 .referral h3 {
   font-size: 13px;
   position: absolute;
-  bottom: 10px;
   color: rgb(187, 187, 187);
 }
 
@@ -139,13 +138,26 @@ input {
   font-family: 'Roboto Mono', monospace;
 }
 
+@media screen and (max-width: 1500px) {
+  .container {
+    height: 220px;
+  }
+  .main {
+    padding-top: 50px;
+  }
+  #results {
+    height: 650px;
+    line-height: 20px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .container {
     height: 220px;
   }
   .main {
     width: 100%;
-    padding: 100px 12px;
+    padding: 25px 12px;
   }
   .main h1 {
     font-size: 32px;
@@ -159,7 +171,7 @@ input {
     font-size: 14px;
   }
   #results {
-    height: 700px;
+    height: 650px;
     line-height: 20px;
   }
 }
